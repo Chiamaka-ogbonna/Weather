@@ -1,0 +1,125 @@
+body{
+   background-color: #222222;
+    padding: 3rem;
+}
+.sunset-background{
+    background: linear-gradient(140deg, #11DFB1, #31A4A1, #4A7192);
+    width: 30%;
+    height: 450px;
+    border-radius: 1rem;
+    margin: 0 auto;
+
+}
+.search-items{
+    width: 85%;
+    margin: 0 auto;
+    position: relative;
+    top: 1.5rem;
+}
+.span-items{
+    width: 100%;
+    height: 50px;
+    background-color: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.span-items > button{
+    width: 80%;
+    height: 40px;
+    border-radius: 1rem;
+    border: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+
+}
+.span-items > span{
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sunset-items{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.sunset-items img{
+    position: relative;
+    left: 3.5rem;
+    top: 3.5rem;
+    width: 90px;
+    height: 90px;
+}
+h1{
+    position: relative;
+    left: 3.5rem;
+    color: #ffffff;
+    top: 2.5rem;
+}
+.sunset-items p{
+    position: relative;
+    left: 4.5rem;
+    color: #ffffff;
+    font-size: 1.8rem;
+    bottom: 1.5rem;
+    top: 1.5rem;
+}
+
+.footer-content{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.humidity-items{
+    width: 50%;
+    height: 60px;
+    display: flex;
+    align-items: flex-start;
+
+}
+.wind-items{
+    width: 50%;
+    height: 60px;
+    position: relative;
+    right: 1.2rem;
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.footer-content img{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 0.5rem;
+
+}
+
+.humidity-items p{
+    font-size: 70%;
+    position: relative;
+    bottom: 1.5rem;
+    line-height: 3px;
+    left: 0.5rem;
+    top: 3rem;
+
+}
+.wind-items p{
+    font-size: 70%;
+    position: relative;
+    bottom: 1.5rem;
+    line-height: 3px;
+    left: 0.5rem;
+    top: 3rem;
+}
